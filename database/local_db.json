@@ -1,0 +1,352 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "admin",
+      "password_hash": "$2b$10$sELI/Vo9sy4syoV31JHn8.cWdpMao2BDwjK25uq7CwaYrvsO5z5u.",
+      "role": "admin",
+      "created_at": "2026-06-07T05:59:47.746Z"
+    }
+  ],
+  "kategori": [
+    {
+      "id": 1,
+      "nama_kategori": "Kopi"
+    },
+    {
+      "id": 2,
+      "nama_kategori": "Minuman"
+    },
+    {
+      "id": 3,
+      "nama_kategori": "Makanan"
+    },
+    {
+      "id": 4,
+      "nama_kategori": "Snack"
+    }
+  ],
+  "menu": [
+    {
+      "id": 1,
+      "nama_menu": "Kopi Hitam Tubruk",
+      "kategori_id": 1,
+      "harga": 8000,
+      "stok": 47,
+      "foto": "/src/assets/images/kopi_hitam_tubruk_1780812200552.png",
+      "created_at": "2026-06-07T05:59:47.746Z"
+    },
+    {
+      "id": 2,
+      "nama_menu": "Kopi Susu Gula Aren",
+      "kategori_id": 1,
+      "harga": 12000,
+      "stok": 39,
+      "foto": "/src/assets/images/kopi_susu_gula_aren_1780812216334.png",
+      "created_at": "2026-06-07T05:59:47.746Z"
+    },
+    {
+      "id": 3,
+      "nama_menu": "Es Teh Manis",
+      "kategori_id": 2,
+      "harga": 5000,
+      "stok": 100,
+      "foto": "/src/assets/images/es_teh_manis_1780812232366.png",
+      "created_at": "2026-06-07T05:59:47.746Z"
+    },
+    {
+      "id": 4,
+      "nama_menu": "Indomie Goreng Double + Telur",
+      "kategori_id": 3,
+      "harga": 13000,
+      "stok": 29,
+      "foto": "/src/assets/images/indomie_goreng_egg_1780811525708.png",
+      "created_at": "2026-06-07T05:59:47.746Z"
+    },
+    {
+      "id": 5,
+      "nama_menu": "Pisang Goreng Coklat Keju",
+      "kategori_id": 4,
+      "harga": 10000,
+      "stok": 24,
+      "foto": "/src/assets/images/pisang_goreng_coklat_keju_1780812249899.png",
+      "created_at": "2026-06-07T05:59:47.746Z"
+    },
+    {
+      "id": 6,
+      "nama_menu": "Josua (Extra Joss Susu)",
+      "kategori_id": 2,
+      "harga": 7000,
+      "stok": 50,
+      "foto": "/src/assets/images/josua_energy_milk_1780810984488.png",
+      "created_at": "2026-06-07T05:59:47.746Z"
+    },
+    {
+      "id": 7,
+      "nama_menu": "Espresso Single Shot",
+      "kategori_id": 1,
+      "harga": 6000,
+      "stok": 60,
+      "foto": "/src/assets/images/espresso_single_1780812658853.png",
+      "created_at": "2026-06-07T05:59:47.746Z"
+    },
+    {
+      "id": 8,
+      "nama_menu": "Cappuccino Creamy",
+      "kategori_id": 1,
+      "harga": 14000,
+      "stok": 40,
+      "foto": "/src/assets/images/cappuccino_creamy_1780812675435.png",
+      "created_at": "2026-06-07T05:59:47.746Z"
+    },
+    {
+      "id": 9,
+      "nama_menu": "Mocha Latte Caramel",
+      "kategori_id": 1,
+      "harga": 15000,
+      "stok": 35,
+      "foto": "/src/assets/images/mocha_latte_caramel_1780812691015.png",
+      "created_at": "2026-06-07T05:59:47.746Z"
+    },
+    {
+      "id": 10,
+      "nama_menu": "Caramel Macchiato",
+      "kategori_id": 1,
+      "harga": 16000,
+      "stok": 30,
+      "foto": "/src/assets/images/caramel_macchiato_1780812704541.png",
+      "created_at": "2026-06-07T05:59:47.746Z"
+    },
+    {
+      "id": 11,
+      "nama_menu": "Kopi V60 Manual Brew",
+      "kategori_id": 1,
+      "harga": 13000,
+      "stok": 25,
+      "foto": "/src/assets/images/kopi_v60_brew_1780812718882.png",
+      "created_at": "2026-06-07T05:59:47.746Z"
+    },
+    {
+      "id": 12,
+      "nama_menu": "Es Jeruk Peras",
+      "kategori_id": 2,
+      "harga": 7000,
+      "stok": 80,
+      "foto": "/src/assets/images/es_jeruk_peras_1780812265878.png",
+      "created_at": "2026-06-07T05:59:47.746Z"
+    },
+    {
+      "id": 13,
+      "nama_menu": "Jus Alpukat Nutella",
+      "kategori_id": 2,
+      "harga": 12000,
+      "stok": 35,
+      "foto": "/src/assets/images/jus_alpukat_nutella_1780812102006.png",
+      "created_at": "2026-06-07T05:59:47.746Z"
+    },
+    {
+      "id": 14,
+      "nama_menu": "Teh Tarik Selasih",
+      "kategori_id": 2,
+      "harga": 8000,
+      "stok": 50,
+      "foto": "/src/assets/images/teh_tarik_selasih_1780812186430.png",
+      "created_at": "2026-06-07T05:59:47.746Z"
+    },
+    {
+      "id": 15,
+      "nama_menu": "Soda Gembira Pink",
+      "kategori_id": 2,
+      "harga": 10000,
+      "stok": 40,
+      "foto": "/src/assets/images/soda_gembira_pink_1780812082714.png",
+      "created_at": "2026-06-07T05:59:47.746Z"
+    },
+    {
+      "id": 16,
+      "nama_menu": "Es Kelapa Muda Segar",
+      "kategori_id": 2,
+      "harga": 9000,
+      "stok": 45,
+      "foto": "/src/assets/images/es_kelapa_muda_1780812737799.png",
+      "created_at": "2026-06-07T05:59:47.746Z"
+    },
+    {
+      "id": 17,
+      "nama_menu": "Nasi Goreng Spesial Warkop",
+      "kategori_id": 3,
+      "harga": 15000,
+      "stok": 40,
+      "foto": "/src/assets/images/nasi_goreng_spesial_1780812751201.png",
+      "created_at": "2026-06-07T05:59:47.746Z"
+    },
+    {
+      "id": 18,
+      "nama_menu": "Mie Instan Kuah Pedas Telur",
+      "kategori_id": 3,
+      "harga": 10000,
+      "stok": 60,
+      "foto": "/src/assets/images/mie_kuah_pedas_1780812764613.png",
+      "created_at": "2026-06-07T05:59:47.746Z"
+    },
+    {
+      "id": 19,
+      "nama_menu": "Magelangan Istimewa",
+      "kategori_id": 3,
+      "harga": 14000,
+      "stok": 35,
+      "foto": "/src/assets/images/magelangan_istimewa_1780812117804.png",
+      "created_at": "2026-06-07T05:59:47.746Z"
+    },
+    {
+      "id": 20,
+      "nama_menu": "Ayam Goreng Penyet",
+      "kategori_id": 3,
+      "harga": 18000,
+      "stok": 30,
+      "foto": "/src/assets/images/ayam_penyet_1780812779055.png",
+      "created_at": "2026-06-07T05:59:47.746Z"
+    },
+    {
+      "id": 21,
+      "nama_menu": "Roti Bakar Bandung Coklat Keju",
+      "kategori_id": 3,
+      "harga": 11000,
+      "stok": 30,
+      "foto": "/src/assets/images/roti_bakar_bandung_1780812134227.png",
+      "created_at": "2026-06-07T05:59:47.746Z"
+    },
+    {
+      "id": 22,
+      "nama_menu": "Tempe Mendoan Anget",
+      "kategori_id": 4,
+      "harga": 8000,
+      "stok": 50,
+      "foto": "/src/assets/images/tempe_mendoan_1780812792593.png",
+      "created_at": "2026-06-07T05:59:47.746Z"
+    },
+    {
+      "id": 23,
+      "nama_menu": "Cireng Rujak Pedas",
+      "kategori_id": 4,
+      "harga": 8000,
+      "stok": 45,
+      "foto": "/src/assets/images/cireng_rujak_pedas_1780812150893.png",
+      "created_at": "2026-06-07T05:59:47.746Z"
+    },
+    {
+      "id": 24,
+      "nama_menu": "Kentang Goreng Krispi",
+      "kategori_id": 4,
+      "harga": 9500,
+      "stok": 40,
+      "foto": "/src/assets/images/kentang_goreng_1780812807882.png",
+      "created_at": "2026-06-07T05:59:47.746Z"
+    },
+    {
+      "id": 25,
+      "nama_menu": "Sosis Bakar Jumbo",
+      "kategori_id": 4,
+      "harga": 10000,
+      "stok": 30,
+      "foto": "/src/assets/images/sosis_bakar_1780812822885.png",
+      "created_at": "2026-06-07T05:59:47.746Z"
+    },
+    {
+      "id": 26,
+      "nama_menu": "Singkong Goreng Keju",
+      "kategori_id": 4,
+      "harga": 9000,
+      "stok": 35,
+      "foto": "/src/assets/images/singkong_goreng_keju_1780812167306.png",
+      "created_at": "2026-06-07T05:59:47.746Z"
+    }
+  ],
+  "transaksi": [
+    {
+      "id": 1,
+      "tanggal": "2026-06-07T09:14:26.884Z",
+      "total": 8000,
+      "bayar": 10000,
+      "kembalian": 2000
+    },
+    {
+      "id": 2,
+      "tanggal": "2026-06-07T09:16:37.062Z",
+      "total": 12000,
+      "bayar": 12000,
+      "kembalian": 0
+    },
+    {
+      "id": 3,
+      "tanggal": "2026-06-07T09:32:16.603Z",
+      "total": 14300,
+      "bayar": 14300,
+      "kembalian": 0
+    },
+    {
+      "id": 4,
+      "tanggal": "2026-06-08T03:40:31.669Z",
+      "total": 8000,
+      "bayar": 8000,
+      "kembalian": 0
+    },
+    {
+      "id": 5,
+      "tanggal": "2026-06-08T03:57:37.594Z",
+      "total": 18000,
+      "bayar": 18000,
+      "kembalian": 0
+    }
+  ],
+  "detail_transaksi": [
+    {
+      "id": 1,
+      "transaksi_id": 1,
+      "menu_id": 1,
+      "qty": 1,
+      "harga": 8000,
+      "subtotal": 8000
+    },
+    {
+      "id": 2,
+      "transaksi_id": 2,
+      "menu_id": 2,
+      "qty": 1,
+      "harga": 12000,
+      "subtotal": 12000
+    },
+    {
+      "id": 3,
+      "transaksi_id": 3,
+      "menu_id": 4,
+      "qty": 1,
+      "harga": 13000,
+      "subtotal": 13000
+    },
+    {
+      "id": 4,
+      "transaksi_id": 4,
+      "menu_id": 1,
+      "qty": 1,
+      "harga": 8000,
+      "subtotal": 8000
+    },
+    {
+      "id": 5,
+      "transaksi_id": 5,
+      "menu_id": 1,
+      "qty": 1,
+      "harga": 8000,
+      "subtotal": 8000
+    },
+    {
+      "id": 6,
+      "transaksi_id": 5,
+      "menu_id": 5,
+      "qty": 1,
+      "harga": 10000,
+      "subtotal": 10000
+    }
+  ]
+}

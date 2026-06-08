@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap');
+@import "tailwindcss";
+
+@variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --font-sans: "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, monospace;
+}
+
+/* Base style resets */
+body {
+  font-family: var(--font-sans);
+  background-color: #fcfbfa; /* Soft warm ivory */
+  color: #2b221a; /* Warm coffee carbon */
+  transition: background-color 300ms ease, color 300ms ease;
+}
+
+body.dark {
+  background-color: #120f0c; /* Soft dark espresso coffee dark */
+  color: #f5f2eb; /* Milk cream white text */
+}
+
+/* Custom coffee tones utility colors if needed */
+.coffee-accent {
+  color: #78350f; /* Amber 900 / coffee bean */
+}
+
+.coffee-bg-light {
+  background-color: #fbf8f5; /* Warm milk */
+}
+
+/* Receipt Print layout overrides */
+@media print {
+  /* Hide typical screen elements */
+  body {
+    background: white !important;
+    color: black !important;
+    font-size: 11pt !important;
+  }
+  
+  /* Hide every element on the page except the printable receipt container */
+  #root > * {
+    display: none !important;
+  }
+  
+  /* Ensure print container occupies full print width */
+  #print-receipt-container {
+    display: block !important;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 300px; /* Heat receipt width approx 80mm */
+    margin: 0 auto;
+    padding: 0;
+    background: white !important;
+    color: black !important;
+  }
+  
+  #print-receipt-container * {
+    visibility: visible !important;
+  }
+}
+
+#print-receipt-container {
+  display: none;
+}

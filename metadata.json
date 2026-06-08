@@ -1,0 +1,8 @@
+{
+  "name": "Kasir Warkop",
+  "description": "Sistem Kasir Warung Kopi yang sederhana, modern, responsif, dilengkapi login admin, manajemen katalog menu, dashboard penjualan, checkout, kalkulator kembalian, dan cetak struk nota.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
