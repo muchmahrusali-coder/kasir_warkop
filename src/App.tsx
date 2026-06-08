@@ -758,7 +758,8 @@ export default function App() {
             </div>
             <div>
               <h2 className="font-bold text-white text-base tracking-wide">WARKOP JACK</h2>
-              <span className="text-[10px] text-amber-300 font-semibold tracking-widest uppercase">Bersama Jack Menuju IMO</span>
+              <p className="text-[10px] text-amber-300 font-semibold tracking-widest uppercase mb-0.5">Bersama Jack Menuju IMO</p>
+              <p className="text-[9px] text-[#cca98f] font-normal leading-none">Jl. Raya Tembok Ratapan Yerussolo</p>
             </div>
           </div>
           {/* Mobile User Profile Button */}
@@ -865,6 +866,7 @@ export default function App() {
               {activeTab === 'transaksi' && 'Riwayat & Laporan Transaksi'}
             </h1>
             <p className="text-xs text-stone-300 dark:text-stone-550 mt-0.5 transition-colors">Warkop Jack • Bersama Jack Menuju IMO</p>
+            <p className="text-[10px] text-stone-400 dark:text-stone-550 mt-1 leading-none transition-colors">Jl. Raya Tembok Ratapan Yerussolo</p>
           </div>
 
           <div className="flex items-center gap-3">
@@ -1724,7 +1726,7 @@ export default function App() {
                 <div className="text-center space-y-0.5">
                   <h4 className="font-extrabold text-[#2c1607] tracking-wider text-sm">WARKOP JACK</h4>
                   <p className="text-[10px] text-amber-800 font-bold tracking-wide italic">Bersama Jack Menuju IMO</p>
-                  <p className="text-[10px] text-stone-400">Jl. Kopi Nikmat No. 12, Jakarta</p>
+                  <p className="text-[10px] text-stone-400">Jl. Raya Tembok Ratapan Yerussolo</p>
                   <p className="text-[9px] text-stone-400">Nota ID: #STR{activeReceipt?.id}</p>
                   <p className="text-[9px] text-stone-400">{activeReceipt?.tanggal ? new Date(activeReceipt.tanggal).toLocaleString('id-ID') : '07-06-2026 11:34'}</p>
                 </div>
@@ -1856,7 +1858,7 @@ export default function App() {
           <div>====================</div>
           <div style={{ textAlign: 'center', fontWeight: 'bold' }}>WARKOP JACK</div>
           <div style={{ textAlign: 'center', fontSize: '9px', fontStyle: 'italic', margin: '2px 0' }}>Bersama Jack Menuju IMO</div>
-          <div style={{ textAlign: 'center', fontSize: '10px' }}>Jl. Kopi Nikmat No. 12, Jakarta</div>
+          <div style={{ textAlign: 'center', fontSize: '10px' }}>Jl. Raya Tembok Ratapan Yerussolo</div>
           <div style={{ textAlign: 'center', fontSize: '10px' }}>ID STRUK: #STR{activeReceipt.id}</div>
           <div style={{ textAlign: 'center', fontSize: '10px', marginBottom: '10px' }}>
             {new Date(activeReceipt.tanggal).toLocaleString('id-ID')}
